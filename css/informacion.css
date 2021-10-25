@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
+
+.Informacion {
+  display: flex;
+}
+.informacion_content {
+  background-color: var(--theme-color-secundary);
+  color: var(--text-color-inverse);
+  width: 100%;
+  padding: 20px;
+}
+.info_title {
+  color: var(--text-color);
+  text-align: center;
+}
+.info_text {
+  color: var(--text-color);
+  text-align: justify;
+}
+.info_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_img {
+  width: 90%;
+  max-width: 350px;
+  height: 200px;
+  border-radius: 15px;
+}
+@media (min-width: 950px) {
+  .info_title {
+    font-size: 45px;
+    color: var(--text-color);
+    text-align: center;
+  }
+  .info_text {
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 1.5em;
+  }
+  .info_img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  .info_img {
+    max-width: 500px;
+    height: 80%;
+    border-radius: 15px;
+  }
+  .info_section {
+    height: 40vh;
+    display: flex;
+    padding: 0.5em 1em;
+  }
+  .info_section_text {
+    width: 50%;
+  }
+  .section2 {
+    flex-direction: row-reverse;
+  }
+}

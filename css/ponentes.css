@@ -1,0 +1,58 @@
+.ponente {
+  padding: 0 55px;
+}
+.carousel_contenedor {
+  position: relative;
+}
+.carousel_anterior,
+.carousel_siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 90px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: #000;
+  opacity: 50%;
+}
+.carousel_anterior:hover,
+.carousel_siguiente:hover {
+  opacity: 100%;
+}
+.carousel_anterior {
+  left: -30px;
+}
+.carousel_siguiente {
+  right: -30px;
+}
+.carousel_lista {
+  overflow: hidden;
+}
+.carousel_elemento {
+  margin-left: 25px;
+  padding: 0 15px;
+  text-align: center;
+}
+.carousel_indicadores .glider-dot {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 0;
+}
+
+.carousel_indicadores .glider-dot:hover {
+  opacity: 0.5;
+}
+
+.carousel_indicadores .glider-dot.active {
+  opacity: 1;
+}
+.carousel_elemento_texto_titulo {
+  font-family: "Montserrat", sans-serif;
+}

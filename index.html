@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/inicio.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cuenta.css" />
+    <link rel="stylesheet" type="text/css" href="./css/informacion.css" />
+    <link rel="stylesheet" type="text/css" href="./css/ejes.css" />
+    <link rel="stylesheet" type="text/css" href="./css/agenda.css" />
+    <link rel="stylesheet" type="text/css" href="./css/ponentes.css" />
+    <link rel="stylesheet" type="text/css" href="./css/entradas.css" />
+    <link rel="stylesheet" type="text/css" href="./css/auspiciadores.css" />
+    <link rel="stylesheet" type="text/css" href="./css/contactanos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <script defer src="./js/app.js"></script>
+    <title>Proyéctate con CEDIP</title>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50px"
+            width="78px"
+            src="./assets/img/logo-size.png"
+            alt="logo"
+          />
+        </a>
+        <!-- Boton menu -->
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="./assets/img/menu.svg" alt="abrir menú" />
+        </button>
+
+        <ul class="menu">
+          <button class="close-menu" aria-label="Abrir menú">
+            <img src="./assets/img/close.svg" alt="abrir menú" />
+          </button>
+          <li>
+            <a class="selected" href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#Informacion">Información</a>
+          </li>
+          <li>
+            <a href="#Agenda">Agenda</a>
+          </li>
+          <li>
+            <a href="#Ponentes">Ponentes</a>
+          </li>
+          <li>
+            <a href="#Auspiciadores">Auspiciadores</a>
+          </li>
+          <li>
+            <a href="#Contactanos">Contactanos</a>
+          </li>
+          <li>
+            <a id="header-inscribir" href="#Registro">Inscribirme</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="Inicio" id="Inicio">
+      <div class="inicio-contenedor">
+        <div class="inicio-img-section">
+          <img
+            class="inicio-img"
+            src="./assets/img/LOGO_PROYECTATE.png"
+            alt="logo"
+          />
+        </div>
+        <div class="inicio-info">
+          <h1 class="inicio-info-title">
+            II CONGRESO INTERNACIONAL<br />
+            DE DIRECCIÓN DE PROYECTOS
+          </h1>
+          <button class="inscribir-btn">Inscribete Ahora</button>
+          <h2 class="inicio-info-eslogan">
+            Conviértete en un verdadero agente de cambio
+          </h2>
+          <h2 class="inicio-info-fecha">08 al 13 de Noviembre</h2>
+        </div>
+      </div>
+    </section>
+    <section class="Contador">
+      <div id="informacion_contador"></div>
+    </section>
+    <section class="Informacion" id="Informacion">
+      <div class="informacion_content">
+        <div class="info_section">
+          <div class="info_section_text">
+            <h1 class="info_title">Propósito del congreso</h1>
+            <p class="info_text">
+              En este congreso tocaremos / hablaremos de temas que te ayudarán
+              en tu formación pre profesional / profesional para poder llegar
+              tener una gran formación dentro de una organización laboral que
+              llegues a tener. Un congreso puede servir de “altavoz” y de medio
+              de difusión general para conocimientos y de trabajos dentro de tu
+              vida.
+            </p>
+          </div>
+          <div class="info_img_container">
+            <img
+              class="info_img"
+              src="./assets/img/Proposito/info_img1.png"
+              alt="info_img1"
+            />
+          </div>
+        </div>
+        <div class="info_section section2">
+          <div class="info_section_text">
+            <h1 class="info_title">Nuestra audiencia</h1>
+            <p class="info_text">
+              Estudiantes de diferentes facultades de la Pontificia Universidad
+              Católica del Ecuador, y público general con gran interés en la
+              gestión y dirección de proyectos.
+            </p>
+          </div>
+          <div class="info_img_container">
+            <img
+              class="info_img"
+              src="./assets/img/Proposito/info_img2.png"
+              alt="info_img2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="EjesTematicos">
+      <div class="EjesContenedor">
+        <h1 class="EjesTitulo">Ejes Temáticos</h1>
+        <div class="EjesContenido">
+          <div class="Ejes_imgBox">
+            <img src="./assets/img/ejes/liderazgo.png" />
+          </div>
+          <div class="Ejes_imgBox">
+            <img src="./assets/img/ejes/tecnologia.png" />
+          </div>
+          <div class="Ejes_imgBox">
+            <img src="./assets/img/ejes/adaptacion.png" />
+          </div>
+          <div class="Ejes_imgBox">
+            <img src="./assets/img/ejes/desarrollo.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Agenda" id="Agenda">
+      <div class="AgendaCarousel">
+        <div class="AgendaTitle">
+          <h1>Agenda</h1>
+        </div>
+        <div class="Agenda_carousel_contenedor">
+          <button arial-label="Anterior" class="Agenda_carousel_anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="Agenda_carousel_lista">
+            <div class="Agenda_carousel_elemento">
+              <img src="./assets/img/agenda/agenda1.png" atl="AGENDA 2" />
+            </div>
+            <div class="Agenda_carousel_elemento">
+              <img src="./assets/img/agenda/agenda2.png" atl="AGENDA 2" />
+            </div>
+          </div>
+
+          <button arial-label="Siguiente" class="Agenda_carousel_siguiente">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div role="tablist" class="Agenda_carousel_indicadores"></div>
+      </div>
+    </section>
+    <section class="Ponentes" id="Ponentes">
+      <div class="ponente">
+        <h1>Ponentes</h1>
+        <div class="carousel">
+          <div class="carousel_contenedor">
+            <button aria-label="Anterior" class="carousel_anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel_lista">
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/jaime-lama-pmp-pmi-pba-2247b1213/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/ponente1.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">Jaime Lama</h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Product Manager, Wicked Problem Solver y Licenciado en
+                      Gestión Financiera y Auditoría.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/angela-m-m%C3%A9ndez-edd-pmp-5a824ba/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/AngelaMendez.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Angela Méndez
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      EdD, PMP, y Mentora Región 13 Norte en Project Management
+                      Institute
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/cesar-barriga-15a70140/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/CesarBarriga.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      César Barriga
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Presidente de PMI
+                      <br />Capítulo Sur-Perú
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/nataliabotto/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/NathaliaBotto.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Nathali Botto
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      PMP, PMI-ACP, DASSM, Master Candidate en Data Science de
+                      UTEC
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a href="https://www.linkedin.com/in/omarenco/" target="_blank">
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/OscarMarenco.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Oscar Marenco
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      PMP, y Country Manager at UNOPS Philippines
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a href="https://www.linkedin.com/in/dsbalboa/" target="_blank">
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/DianaBalboa.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">Diana Balboa</h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Directora de Desarrollo Profesional en PMI Capítulo Lima y
+                      Diseñador de juegos educativos en BIVRA®
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a href="https://www.linkedin.com/in/calcagno/" target="_blank">
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/FabianCalcagno.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Fabián Calcagno
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Director Miller&Co - Coordinacion Académica Posgrado
+                      ESPECIALISTA BIM
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/santiago-cartagena-47806717/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/SantiagoCartagena.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Santiago Cartagena
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Presidente PMI capítulo Ecuador, PMP, SMC,, DASSM, Couch
+                      SDI, SPI Agile Coach
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/macarolinalatorre/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/CarolinaLatorre.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Carolina La Torre
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Líder Regional de Juventud y Relacionamiento Académico de
+                      PMI para América Latina.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a href="https://www.linkedin.com/in/rtriana/" target="_blank">
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/RicardoTriana.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Ricardo Triana
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Director General de PMI de América Latina, PMI, orador de
+                      habilidades interpersonales y gestión de proyectos
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/alfarm1101"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/AlfredoArmijos.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Alfredo Armijos
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      PPM, Gerente de Portafolio de Proyectos en Aristeia Corp
+                      MPM, Director de Programa en ESPAE GSoM ESPOL
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel_elemento">
+                <a
+                  href="https://www.linkedin.com/in/jasminanikolic1/"
+                  target="_blank"
+                >
+                  <div class="carousel_elemento_img">
+                    <img
+                      class="carousel_img"
+                      src="./assets/img/JasminaNikolic.png"
+                      alt="Ponente 1"
+                    />
+                  </div>
+                  <div class="carousel_elemento_texto">
+                    <h1 class="carousel_elemento_texto_titulo">
+                      Jasmina Nikolic
+                    </h1>
+                    <p class="carousel_elemento_texto_descripcion">
+                      Fundadora y CEO de Agile Humans, consultora ágil y coach
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button aria-label="Siguiente" class="carousel_siguiente">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div role="tablist" class="carousel_indicadores"></div>
+        </div>
+      </div>
+    </section>
+    <section class="Registro" id="Registro">
+      <h1 class="Registro-title">Registro</h1>
+      <div class="registro_contenedor">
+        <div class="registro_tarjeta">
+          <div class="tarjeta_imagen">
+            <img src="./assets/img/Entradas/Entrada_General.png" />
+          </div>
+          <div class="tarjeta_contenido">
+            <a id="tarjeta_btn" href="#">Comprar</a>
+          </div>
+        </div>
+        <div class="registro_tarjeta">
+          <div class="tarjeta_imagen">
+            <img src="./assets/img/Entradas/Entrada_Estudiante.png" />
+          </div>
+          <div class="tarjeta_contenido">
+            <a id="tarjeta_btn" href="#">Comprar</a>
+          </div>
+        </div>
+        <div class="registro_tarjeta">
+          <div class="tarjeta_imagen">
+            <img src="./assets/img/Entradas/Entrada_PMI.png" />
+          </div>
+          <div class="tarjeta_contenido">
+            <a id="tarjeta_btn" href="#">Comprar</a>
+          </div>
+        </div>
+        <div class="registro_tarjeta registro_tarjeta_grupo">
+          <div class="tarjeta_imagen">
+            <img
+              class="tajeta_imagen_grupo"
+              src="./assets/img/Entradas/Entrada_Grupo.png"
+            />
+          </div>
+          <div class="tarjeta_contenido">
+            <a id="tarjeta_btn" href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Auspiciadores" id="Auspiciadores">
+      <div class="organizadores">
+        <h1 class="organizadores_title">Organizadores</h1>
+        <div class="organizadores_contenido">
+          <img class="organizadores_img" src="./assets/img/logo-size.png" />
+        </div>
+      </div>
+      <div class="auspiciadores">
+        <h1 class="auspiciadores_title">Auspiciantes</h1>
+        <div class="auspiciadores_contenido">
+          <a href="https://www.instagram.com/aea.puce/" target="_blank"
+            ><img
+              class="auspiciadores_img"
+              src="./assets/img/Auspiciantes/aea.png"
+          /></a>
+          <a href="https://www.instagram.com/aeipuce21/" target="_blank"
+            ><img
+              class="auspiciadores_img"
+              src="./assets/img/Auspiciantes/aei.png"
+          /></a>
+          <a href="https://www.instagram.com/feucequito/" target="_blank"
+            ><img
+              class="auspiciadores_img"
+              src="./assets/img/Auspiciantes/feuce.jpg"
+          /></a>
+          <a href="https://www.instagram.com/pmiecuador/" target="_blank"
+            ><img
+              class="auspiciadores_img"
+              src="./assets/img/Auspiciantes/pmi.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="Contactanos" id="Contactanos">
+      <div class="contactanos_contenedor">
+        <div class="contactanos_contenido">
+          <div class="contactanos_eslogan">
+            <h2 class="contactanos_eslogan">
+              "El progreso es imposible sin el cambio y aquellos que no pueden
+              cambiar sus mentes no pueden cambiar nada"
+            </h2>
+          </div>
+          <div class="contactanos_video">
+            <iframe
+              src="https://www.youtube.com/embed/jqOx32Cv-XI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <div class="contactanos_btn">
+            <a id="btn_contactanos" href="#Registro">Sé parte del cambio</a>
+          </div>
+          <div class="contactanos_social">
+            <ul class="social_contenedor">
+              <li class="social">
+                <a
+                  href="https://www.facebook.com/CEDIP-PUCE-105119567878269"
+                  target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="social">
+                <a href="https://www.instagram.com/cedip.puce/" target="_blank"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>Copyright © 2021 CEDIP</h3>
+      <h3>Powered by CEDIP</h3>
+    </footer>
+    <script src="./js/simplyCountdown.min.js"></script>
+    <script src="./js/countdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

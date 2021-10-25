@@ -1,0 +1,112 @@
+.Contactanos {
+  display: flex;
+}
+.contactanos_contenedor {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/img/BannerBlanco.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contactanos_eslogan {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 2em;
+}
+.contactanos_video {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contactanos_video iframe {
+  width: 320px;
+  height: 200px;
+}
+.contactanos_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#btn_contactanos {
+  background-color: var(--primary-color);
+  color: var(--text-color-inverse);
+  border: none;
+  padding: 1em 1.3em;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  box-shadow: 2px 4px 15px #000;
+}
+#btn_contactanos:hover {
+  filter: brightness(130%);
+}
+.contactanos_social {
+  display: flex;
+  justify-content: center;
+}
+/* Botones Redes Sociales */
+.social_contenedor {
+  margin-top: 2em;
+  position: relative;
+  display: flex;
+}
+.social {
+  position: relative;
+  list-style: none;
+}
+.social a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #e2e2e2;
+  box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+    2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.social a:hover {
+  color: #999;
+  transform: translateY(-20px);
+  box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+    2px 24px 10px rgba(0, 0, 0, 0.1);
+}
+.social a .fa {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.social a::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.social:nth-child(1) a:before {
+  background: #1877f2;
+}
+.social:nth-child(2) a:before {
+  background: #c32aa3;
+}
+@media (min-width: 950px) {
+  .contactanos_video iframe {
+    width: 720px;
+    height: 400px;
+  }
+}

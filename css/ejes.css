@@ -1,0 +1,50 @@
+.EjesTematicos {
+  width: 100%;
+}
+.EjesTitulo {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.EjesContenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+.EjesContenido {
+  width: 100%;
+}
+.Ejes_imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.Ejes_imgBox img {
+  max-width: 100%;
+  border-radius: 20px;
+  transition: transform 1s;
+}
+.Ejes_imgBox:hover img {
+  transform: scale(1.1);
+}
+@media (min-width: 950px) {
+  .EjesContenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .EjesContenido {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Ejes_imgBox {
+    display: inline-flex;
+    padding: 3px;
+    border-radius: 20px;
+  }
+}

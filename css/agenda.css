@@ -1,0 +1,69 @@
+.Agenda {
+  margin-top: 80px;
+  background-color: var(--theme-color-secundary);
+  margin-bottom: 30px;
+}
+.AgendaCarousel {
+  padding: 0 30px;
+}
+.AgendaTitle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Agenda_carousel_contenedor {
+  position: relative;
+}
+.Agenda_carousel_anterior,
+.Agenda_carousel_siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 60px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: #000;
+  opacity: 50%;
+}
+.Agenda_carousel_anterior {
+  left: -30px;
+}
+.Agenda_carousel_siguiente {
+  right: -30px;
+}
+.Agenda_carousel_lista {
+  overflow: hidden;
+}
+.Agenda_carousel_elemento {
+  text-align: center;
+}
+.Agenda_carousel_indicadores .glider-dot {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 0;
+}
+
+.Agenda_carousel_indicadores .glider-dot:hover {
+  opacity: 0.5;
+}
+
+.Agenda_carousel_indicadores .glider-dot.active {
+  opacity: 1;
+}
+
+@media (min-width: 950px) {
+  .AgendaCarousel {
+    padding: 0 70px;
+  }
+  .Agenda_carousel_elemento img {
+    max-width: 40em;
+  }
+}
