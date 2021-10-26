@@ -33,6 +33,7 @@
     font-size: 45px;
     color: var(--text-color);
     text-align: center;
+    margin-top: 1.5em;
   }
   .info_text {
     color: var(--text-color);
